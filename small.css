@@ -1,0 +1,41 @@
+/*
+ * Media Query
+*/
+
+
+.container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.halloweenparty img {
+  width: 100%;
+  border-radius: 0;
+
+}
+
+.intro {
+  text-align: center;
+}
+
+.vampirebat img {
+  display: block;
+  margin: auto; /*auto horizontally centers that element within its container, 
+  but needs display: block first*/
+  width: 50%;
+  /*float: inherit; /* inherit makes it override the parent css which used to say float 
+  right */
+  padding: 20px 0 0 0;
+}
+
+.contact {
+  text-align: center;
+}
+
+.pie img {
+  display: block;
+  margin: auto;
+  width: 40%;
+  float: inherit; /* inherit makes it override the parent css which says float left */
+}
