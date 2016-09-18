@@ -39,3 +39,7 @@
   width: 40%;
   float: inherit; /* inherit makes it override the parent css which says float left */
 }
+
+.map {
+  width: 100%;
+}
